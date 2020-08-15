@@ -1,0 +1,7 @@
+<h2 *ngIf="false">frontpage works!</h2>
+
+<h2 *ngIf="condition; else elseBlock">Hello there</h2>
+
+<ng-template #elseBlock>
+  <h2>Else block message</h2>
+</ng-template>

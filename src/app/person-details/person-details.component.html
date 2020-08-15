@@ -1,0 +1,8 @@
+<h2>Person Details</h2>
+{{ errMsg }}
+<ul *ngFor="let person of persons">
+  <li>
+    {{ person.id }} . {{ person.name }} - {{ person.email }} -
+    {{ person.username }}
+  </li>
+</ul>
